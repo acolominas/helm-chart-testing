@@ -31,4 +31,4 @@ spec:
             - ../values/{{path.basename}}/values.yaml
       destination:
         name: in-cluster
-        namespace: testing
+        namespace: {{path.basename}}
