@@ -1,3 +1,6 @@
 image:
   repository: nginx
   tag: "latest"
+service:
+  type: NodePort
+  nodePort: 30007

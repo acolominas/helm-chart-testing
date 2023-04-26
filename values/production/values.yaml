@@ -1,3 +1,6 @@
 image:
   repository: nginx
   tag: "stable"
+service:
+  type: NodePort
+  nodePort: 30008
