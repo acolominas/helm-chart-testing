@@ -13,6 +13,6 @@ spec:
   - namespace: '*'
     name: in-cluster
 
-  cluisterResourceWhitelist:
+  clusterResourceWhitelist:
   - group: '*'
     kind: '*'
