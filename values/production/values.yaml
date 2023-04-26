@@ -1,2 +1,3 @@
 image:
-  repository: nginx:stable
+  repository: nginx
+  tag: "stable"
