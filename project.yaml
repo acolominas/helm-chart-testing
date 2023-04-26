@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: testing
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  description: Project for Testing
+  sourceRepos:
+    - '*'
+  destinations:
+  - namespace: '*'
+  - name: in-cluster
+
+  cluisterResourceWhitelist:
+  - group: '*'
+    kind: '*'
