@@ -23,7 +23,7 @@ spec:
           - CreateNamespace=true
       source:
         repoURL: https://github.com/acolominas/helm-chart-testing.git
-        targetRevision: 0.1.0
+        targetRevision: HEAD
         path: "test"
         helm:
           valueFiles:
